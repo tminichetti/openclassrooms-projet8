@@ -1,0 +1,20 @@
+{
+  "experiment_name": "unet_no-aug_20260213_105215",
+  "model": "unet",
+  "input_shape": [
+    256,
+    512,
+    3
+  ],
+  "n_classes": 8,
+  "batch_size": 8,
+  "epochs": 50,
+  "learning_rate": 0.0001,
+  "patience": 10,
+  "loss": "combined_loss",
+  "optimizer": "Adam",
+  "train_samples": 2975,
+  "val_samples": 500,
+  "augmentation": false,
+  "augmentation_config": null
+}
