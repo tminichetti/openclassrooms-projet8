@@ -1,0 +1,3 @@
+experiment,model,augmentation,epochs_trained,best_epoch,training_time_minutes,val_loss,val_accuracy,val_dice,val_miou,model_path,timestamp
+unet_20260131_022510,unet,False,39,29,0,0.4793587625026703,0.8921300172805786,0.8652747273445129,0.6643828749656677,models/unet_best.keras,2026-02-13T09:46:48.269056
+unet_20260209_225048,unet,False,41,31,0,0.4820125997066498,0.8936782479286194,0.8712173104286194,0.6666615009307861,models/unet_best.keras,2026-02-13T09:46:48.270643
